@@ -1,0 +1,259 @@
+{
+  "app_type": "landing_page",
+  "project_title": "m.oliseee.11.17 — Official Edits Showcase",
+  "channel_metadata": {
+    "name": "m.oliseee.11.17",
+    "handle": "@oliseee1117",
+    "tagline": "Nah, imma do my own think.",
+    "subscribers": "1.31K+",
+    "youtube_url": "https://youtube.com/@oliseee1117",
+    "niche": "High-Velocity Video Edits, Anime & Cinematic Montage, Motion Graphics"
+  },
+  "art_direction": {
+    "theme": "Awwwards-Level Stealth Carbon & Kinetic Energy",
+    "concept": "Elegantes Carbon-Schwarz Design mit dezenten Carbon-Faser-Strukturen, ultra-flüssiger Lenis-Scroll-Kinetik, feinen Neon-Highlights (#FF2E00 / #00E5FF) und redaktioneller Asymmetrie.",
+    "vibe": "Ultra-sleek, precision-engineered, high-velocity edit culture, cinematic midnight warmth.",
+    "carbon_fiber_pattern": "background-color: #08090C; background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 0), radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 0); background-size: 16px 16px; background-position: 0 0, 8px 8px; custom SVG weave overlay with 3% opacity for true carbon mesh depth."
+  },
+  "colors": {
+    "palette_name": "Stealth Carbon & Kinetic Crimson",
+    "hex": {
+      "carbon_void": "#060709",
+      "carbon_deep": "#0A0C10",
+      "carbon_surface": "#12151D",
+      "carbon_surface_hover": "#1A1E29",
+      "carbon_border": "rgba(255, 255, 255, 0.08)",
+      "carbon_border_active": "rgba(255, 46, 0, 0.4)",
+      "accent_primary": "#FF2E00",
+      "accent_primary_glow": "rgba(255, 46, 0, 0.25)",
+      "accent_cyan": "#00E5FF",
+      "text_primary": "#F2F4F8",
+      "text_secondary": "#94A0B8",
+      "text_muted": "#525E75"
+    },
+    "css_variables": {
+      "--background": "222 30% 3%",
+      "--foreground": "210 20% 98%",
+      "--card": "222 25% 6%",
+      "--card-foreground": "210 20% 98%",
+      "--popover": "222 25% 6%",
+      "--popover-foreground": "210 20% 98%",
+      "--primary": "11 100% 50%",
+      "--primary-foreground": "0 0% 100%",
+      "--secondary": "222 20% 12%",
+      "--secondary-foreground": "210 20% 98%",
+      "--muted": "222 20% 12%",
+      "--muted-foreground": "215 15% 65%",
+      "--accent": "187 100% 50%",
+      "--accent-foreground": "222 30% 3%",
+      "--destructive": "0 84.2% 60.2%",
+      "--destructive-foreground": "210 20% 98%",
+      "--border": "222 15% 15%",
+      "--input": "222 15% 15%",
+      "--ring": "11 100% 50%",
+      "--radius": "0.75rem"
+    }
+  },
+  "typography": {
+    "google_fonts_import": "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap",
+    "font_families": {
+      "display": "'Outfit', sans-serif",
+      "body": "'Plus Jakarta Sans', sans-serif",
+      "mono": "'JetBrains Mono', monospace"
+    },
+    "hierarchy": {
+      "hero_title": "text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[0.95] uppercase",
+      "section_heading": "text-3xl sm:text-5xl font-extrabold tracking-tight leading-[1.05] uppercase",
+      "sub_heading": "text-xl sm:text-2xl font-semibold text-slate-200 tracking-normal",
+      "body_large": "text-base sm:text-lg font-normal text-slate-300 leading-relaxed",
+      "body_regular": "text-sm sm:text-base font-normal text-slate-400 leading-relaxed",
+      "label_mono": "font-mono text-xs uppercase tracking-[0.25em] text-orange-500 font-semibold"
+    }
+  },
+  "layout_and_spacing": {
+    "container_padding": "px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto",
+    "section_spacing": "py-24 lg:py-36",
+    "grid_system": "grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8",
+    "bento_ratios": {
+      "dominant": "col-span-12 md:col-span-8",
+      "secondary": "col-span-12 md:col-span-4",
+      "half": "col-span-12 md:col-span-6",
+      "quarter": "col-span-12 sm:col-span-6 md:col-span-3"
+    }
+  },
+  "motion_and_interactions": {
+    "lenis_smooth_scroll": {
+      "duration": 1.2,
+      "easing": "easeInOutCubic",
+      "smooth_touch": false
+    },
+    "reveal_animations": {
+      "masked_text_reveal": "Masked line reveal with translateY(100%) to translateY(0%) with stagger 0.08s",
+      "scroll_fade_up": "opacity: 0 -> 1, y: 30 -> 0 over 0.6s with cubic-bezier(0.16, 1, 0.3, 1)"
+    },
+    "marquee_spec": {
+      "speed": "slow",
+      "direction": "left",
+      "content": ["VELOCITY EDITS", "MOTION DESIGN", "AMV & CINEMATICS", "AUDIO REACTIVE", "NAH, IMMA DO MY OWN THINK", "FRAME BY FRAME PRECISION"],
+      "font_style": "font-display text-4xl sm:text-6xl uppercase tracking-wider text-slate-800/80 stroke-text hover:text-orange-500 transition-colors duration-500"
+    },
+    "custom_cursor": "Small kinetic ring follower with scale boost on button and video card hover."
+  },
+  "sections": [
+    {
+      "section_id": "header",
+      "name": "Navigation Bar",
+      "layout": "Fixed top nav floating over hero, glassmorphic dark container with subtle 1px carbon border.",
+      "components": [
+        "Brand Mark: Custom SVG Hexagonal Carbon Lattice 'O' logo + 'm.oliseee.11.17'",
+        "Nav Links: [ 'Hero', 'Über Mich', 'Videos', 'Kanal' ] with active scroll indicator dot",
+        "Primary CTA: 'YouTube Abonnieren' button in kinetic crimson with play icon redirecting to https://youtube.com/@oliseee1117"
+      ],
+      "data_testids": {
+        "nav_container": "header-navigation",
+        "brand_logo": "header-brand-logo",
+        "nav_link_about": "header-link-about",
+        "nav_link_videos": "header-link-videos",
+        "nav_cta_button": "header-cta-youtube"
+      }
+    },
+    {
+      "section_id": "hero",
+      "name": "Kinetic Carbon Hero Section",
+      "layout": "Split 12-column grid. Left 7 cols for massive display typography & CTA, Right 5 cols for interactive 3D editor card with ambient video glow.",
+      "key_elements": [
+        "Tagline Eyebrow: 'NAH, IMMA DO MY OWN THINK.' in glowing orange mono text",
+        "Main Title: 'NEXT-LEVEL VIDEO EDITS & MOTION DESIGN'",
+        "Subtext: 'Entdecke hochauflösende Visuals, präzise Velocity-Cuts und einzigartigen Style von m.oliseee.11.17.'",
+        "Key Metrics Pill: '1.31K+ Subscribers • 4K 60FPS Render Quality • Custom Sound Design'",
+        "Interactive Video Reel Preview Card with play trigger and motion blur hover",
+        "Primary CTA: 'Kanal Entdecken' -> https://youtube.com/@oliseee1117"
+      ],
+      "data_testids": {
+        "hero_section": "hero-section",
+        "hero_headline": "hero-headline",
+        "hero_cta": "hero-cta-subscribe",
+        "hero_video_card": "hero-featured-video-card"
+      }
+    },
+    {
+      "section_id": "marquee",
+      "name": "Editorial Ribbon Marquee",
+      "layout": "Full width infinite scrolling tape with low-contrast carbon text and neon orange hover effect.",
+      "data_testids": {
+        "marquee_container": "editorial-marquee"
+      }
+    },
+    {
+      "section_id": "about",
+      "name": "Über Mich & Edit Ethos",
+      "layout": "Asymmetric Bento Grid showcasing editor philosophy, workflow timeline, and equipment/software stack.",
+      "bento_items": [
+        "Card 1 (Dominant): Editor Bio & Story — 'Kreativität ohne Grenzen. Jeder Cut hat seine eigene Energie.'",
+        "Card 2: Software & Plugins Stack (After Effects, Premiere Pro, Blender, DaVinci Resolve) with custom technical tags",
+        "Card 3: YouTube Stats Highlight (~1.31K Subscribers, High Retention Rate)",
+        "Card 4: Visual Aesthetic Pillars (Sound Sync, Color Grading, 3D Typography)"
+      ],
+      "data_testids": {
+        "about_section": "about-section",
+        "about_bio": "about-bio-card",
+        "about_stack": "about-software-stack"
+      }
+    },
+    {
+      "section_id": "videos",
+      "name": "Videos Showcase (YouTube Embeds)",
+      "layout": "Interactive video gallery with category filters (Alle, Velocity, Anime AMV, Cinematic) and responsive video grid with inline/modal YouTube embeds.",
+      "videos_data": [
+        {
+          "id": "embed-1",
+          "title": "Ultimate Velocity & Beat-Sync Montage",
+          "category": "Velocity",
+          "youtube_id": "dQw4w9WgXcQ",
+          "fallback_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "views": "12.4K",
+          "duration": "0:45",
+          "thumbnail": "https://images.unsplash.com/photo-1705877883453-2b6685ff5864?crop=entropy&cs=srgb&fm=jpg&q=85"
+        },
+        {
+          "id": "embed-2",
+          "title": "Dark Aesthetic Anime Edit — 4K 60FPS",
+          "category": "Anime AMV",
+          "youtube_id": "dQw4w9WgXcQ",
+          "fallback_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "views": "8.9K",
+          "duration": "1:12",
+          "thumbnail": "https://images.unsplash.com/photo-1761882730474-e9ecbdb4c7ac?crop=entropy&cs=srgb&fm=jpg&q=85"
+        },
+        {
+          "id": "embed-3",
+          "title": "Cinematic Sound Design & Color Grade Reel",
+          "category": "Cinematic",
+          "youtube_id": "dQw4w9WgXcQ",
+          "fallback_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "views": "15.1K",
+          "duration": "2:05",
+          "thumbnail": "https://images.unsplash.com/photo-1762618621440-7082e14bc8c0?crop=entropy&cs=srgb&fm=jpg&q=85"
+        }
+      ],
+      "data_testids": {
+        "videos_section": "videos-section",
+        "filter_all": "videos-filter-all",
+        "video_card": "video-item-card",
+        "play_modal_trigger": "video-modal-trigger"
+      }
+    },
+    {
+      "section_id": "cta",
+      "name": "YouTube Channel Link Banner",
+      "layout": "High-impact full-width carbon showcase banner with glowing orange border, subscriber badge, and huge direct link button.",
+      "headline": "WERDE TEIL DER COMMUNITY",
+      "subtext": "Abonniere m.oliseee.11.17 auf YouTube für wöchentliche Edits, Tutorials & Visuals.",
+      "youtube_link": "https://youtube.com/@oliseee1117",
+      "data_testids": {
+        "cta_section": "channel-cta-section",
+        "cta_youtube_button": "channel-cta-main-button"
+      }
+    },
+    {
+      "section_id": "footer",
+      "name": "Footer & Social Links",
+      "layout": "Technical carbon grid footer with system status indicator, copyright, and verified YouTube channel link.",
+      "data_testids": {
+        "footer_container": "footer-container",
+        "footer_youtube_link": "footer-link-youtube"
+      }
+    }
+  ],
+  "image_urls": [
+    {
+      "category": "carbon_texture",
+      "url": "https://images.unsplash.com/photo-1708778002477-75611274f23d?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Dark carbon pattern weave background for cards and overlays"
+    },
+    {
+      "category": "hero_visual",
+      "url": "https://images.unsplash.com/photo-1762618621440-7082e14bc8c0?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Cinematic light trails on black background representing high speed cuts"
+    },
+    {
+      "category": "editor_portrait",
+      "url": "https://images.unsplash.com/photo-1761882730474-e9ecbdb4c7ac?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Cinematic portrait with red/blue studio light blur for about section"
+    },
+    {
+      "category": "abstract_neon",
+      "url": "https://images.unsplash.com/photo-1705877883453-2b6685ff5864?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Dark abstract glowing grid texture"
+    }
+  ],
+  "instructions_to_main_agent": [
+    "Ensure all fonts (Outfit, Plus Jakarta Sans, JetBrains Mono) are loaded via HTML link in index.html or Google Fonts @import in index.css.",
+    "Implement carbon fiber texture via CSS background variables and SVG pattern class .bg-carbon-pattern.",
+    "Use framer-motion for smooth entrance animations and hover effects on video cards.",
+    "All navigation links and call-to-action buttons MUST link directly or prominently highlight https://youtube.com/@oliseee1117.",
+    "Ensure video section supports real YouTube embed modals/lightboxes using iframe.",
+    "Include data-testid attributes on every interactive element specified in the section blueprints.",
+    "Maintain high contrast ratios with readable text on dark carbon backgrounds."
+  ]
+}

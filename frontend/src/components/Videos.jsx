@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Play, Eye, CalendarDays, ArrowUpRight } from "lucide-react";
+import { Play, Eye, CalendarDays, ArrowUpRight, Youtube } from "lucide-react";
 
 const CHANNEL_URL = "https://youtube.com/@oliseee1117/videos";
 const VIDEO_ID = "kOiFUeLBZJ4";
